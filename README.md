@@ -60,17 +60,10 @@ C (Controller) is the part of the code that gets commands from the user and tell
 ```
  Public Sub fizzbuzz()
   For n = 1 To 100
-	Select Case 0
-		Case n Mod 15
-		f = "FizzBuzz"
-		Case n Mod 3
-		f = "Fizz"
-		Case n Mod 5
-		f = "Buzz"
-		Case Else
-		f = n
-	End Select
-	Debug.Print f
+        If n Mod 3 == 0
+          Print "Fizz"
+        If n Mod 5 == 0
+          Print "Buzz"
 	Next n
  End Sub
 
