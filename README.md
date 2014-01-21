@@ -64,6 +64,7 @@ C (Controller) is the part of the code that gets commands from the user and tell
           Print "Fizz"
         If n Mod 5 == 0
           Print "Buzz"
+        Print NEWLINE
 	Next n
  End Sub
 
